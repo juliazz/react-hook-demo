@@ -4,6 +4,7 @@ import ClockClass from './clockClass'
 import ClockHook from './clock'
 import Ref from './ref'
 import ContentPar from './contentPar'
+import Todolist from './todolist'
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
         <ClockHook></ClockHook>
         <ContentPar></ContentPar>
         <Ref></Ref>
+        <Todolist></Todolist>
       </header>
     </div>
   );
